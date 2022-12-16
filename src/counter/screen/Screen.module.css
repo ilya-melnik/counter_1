@@ -1,0 +1,16 @@
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 7px auto;
+    width: 530px;
+    height: 230px;
+    background-color: #61dafb;
+    border-radius: 9px;
+}
+
+.number {
+    font-size: 120px;
+    color: darkred;
+}
