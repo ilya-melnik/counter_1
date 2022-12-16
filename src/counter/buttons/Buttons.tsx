@@ -9,7 +9,6 @@ type Buttons = {
     inc: number
 }
 const Buttons = (props: Buttons) => {
-
     return (
         <div className={s.btns}>
             <Increment inc={props.inc} callback={props.IncrementHandler}/>

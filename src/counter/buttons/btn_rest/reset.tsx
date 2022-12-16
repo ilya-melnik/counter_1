@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './reset.module.css'
+
 type ResetType = {
     callback: ()=>void
     inc:number

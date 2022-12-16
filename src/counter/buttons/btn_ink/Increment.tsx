@@ -5,6 +5,7 @@ type IncrementType = {
     callback: () => void
     inc: number
 }
+
 const Increment = (props: IncrementType) => {
     return (
         <div>

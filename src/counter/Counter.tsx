@@ -20,6 +20,7 @@ const Counter = () => {
             setInc(inc => inc = 0)
         }
     }
+
     return (
         <div className={s.box}>
             <Screen inc={inc}/>
