@@ -8,7 +8,7 @@ const Screen = (props: IncType) => {
 
     return (
         <div className={s.screen}>
-<div className={s.number}>{props.inc}</div>
+<div className={props.inc < 5? s.number:s.numberLimit}>{props.inc}</div>
         </div>
     );
 };

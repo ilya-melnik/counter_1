@@ -8,8 +8,7 @@ type ResetType = {
 const Reset = (props:ResetType) => {
     return (
         <div>
-            <button disabled={props.inc === 0} onClick={props.callback} className={s.ink}>reset</button>
-            {/*onClick={props.callback}*/}
+            <button  disabled={props.inc === 0} onClick={props.callback} className={s.ink}>reset</button>
         </div>
     );
 };

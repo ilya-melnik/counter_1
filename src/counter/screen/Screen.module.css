@@ -11,6 +11,10 @@
 }
 
 .number {
-    font-size: 120px;
+    font-size: 100px;
+    color: #282c34;
+}
+.numberLimit {
+    font-size: 140px;
     color: darkred;
 }
