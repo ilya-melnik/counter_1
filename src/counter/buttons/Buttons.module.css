@@ -1,6 +1,6 @@
 .btns {
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     margin: 10px auto;
     width: 520px;
@@ -19,7 +19,8 @@ justify-content: space-around;
     width: 220px;
     height: 90px;
 }
-.disabled{
+
+.disabled {
     background-color: #4eb4ce;
     color: #282c34;
     font-size: 30px;
